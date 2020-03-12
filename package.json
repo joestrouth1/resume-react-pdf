@@ -1,0 +1,22 @@
+{
+  "name": "ats-res",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Joe Strouth",
+  "license": "MIT",
+  "dependencies": {
+    "@react-pdf/renderer": "^1.6.8",
+    "@react-pdf/styled-components": "^1.4.0",
+    "react": "~16.8.0",
+    "react-dom": "^16.13.0"
+  },
+  "scripts": {
+    "compile": "tsc",
+    "generate": "tsc && node ./dist/build.js"
+  },
+  "devDependencies": {
+    "@types/node": "^13.9.0",
+    "@types/react": "^16.9.23",
+    "typescript": "^3.8.3"
+  }
+}
