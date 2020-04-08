@@ -7,6 +7,7 @@ import { Skills } from './components/skills'
 import { Experience } from './components/experience'
 import { Education } from './components/education'
 import { Contributions } from './components/contributions'
+import { Certifications } from './components/certifications'
 // import { Interests } from './components/interests'
 
 // Font.register({
@@ -40,8 +41,8 @@ const styles = StyleSheet.create({
     fontSize: 12,
     lineHeight: 1.5,
     paddingVertical: 32,
-    paddingHorizontal: 32
-  }
+    paddingHorizontal: 32,
+  },
 })
 
 export const Resume = () => (
@@ -53,6 +54,7 @@ export const Resume = () => (
       <Experience />
       <Education />
       <Contributions />
+      <Certifications />
       {/* <Interests /> */}
     </Page>
   </Document>

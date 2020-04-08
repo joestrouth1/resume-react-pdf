@@ -19,8 +19,8 @@ export const experiences: Experience[] = [
       'Build new web projects with tools like Webpack and Rollup',
       'Develop user interfaces with React, Typescript, Babel, Gatsby, and Emotion',
       'Lead the transition of legacy codebases from jQuery & Bootstrap to modern component-driven architectures',
-      'Audit, optimize, and monitor web sites for accessibility, performance and SEO'
-    ]
+      'Audit, optimize, and monitor web sites for accessibility, performance and SEO',
+    ],
   },
   {
     companyName: 'Open Road Brands, LLC.',
@@ -33,8 +33,8 @@ export const experiences: Experience[] = [
       'Integrate Oracle ERP systems with third-party ecommmerce platforms like Walmart, Amazon, eBay, and Disney',
       'Develop APIs in Node.js and TypeScript, provision and deploy to serverless and VM-based infrastructure',
       'Plan, propose, implement, and optimize advertising campaigns for products on several platforms',
-      'Ensure product and inventory data integrity and availability across multiple channels'
-    ]
+      'Ensure product and inventory data integrity and availability across multiple channels',
+    ],
   },
   {
     companyName: 'overstockArt.com',
@@ -49,7 +49,7 @@ export const experiences: Experience[] = [
       'Manage design and distribution of promotional/marketing materials like catalogs, email campaigns, and search and display ads',
       'Write search engine optimized e-commerce web copy, blog posts, and press releases',
       'Design and optimize lead generation and email marketing campaigns',
-      'Communicate with a global community of vendors and artists to facilitate quality control and a smooth customer experience'
-    ]
-  }
+      'Communicate with a global community of vendors and artists to facilitate quality control and a smooth customer experience',
+    ],
+  },
 ]

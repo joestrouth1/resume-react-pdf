@@ -15,7 +15,7 @@ const TimeSpan = ({
   startMonth,
   startYear,
   endMonth,
-  endYear
+  endYear,
 }: TimeSpanProps) => {
   const isPresent = !endMonth && !endYear
   return (
@@ -44,14 +44,14 @@ export const Experience = () => (
           startYear,
           endMonth,
           endYear,
-          bullets
+          bullets,
         },
         index
       ) => (
         <View
           key={`${companyName}_${title}`}
           style={{
-            marginBottom: index === experiences.length - 1 ? 0 : 8
+            marginBottom: index === experiences.length - 1 ? 0 : 8,
           }}
           wrap={false}
         >
@@ -61,7 +61,7 @@ export const Experience = () => (
               justifyContent: 'space-between',
               flexDirection: 'row',
               flexWrap: 'nowrap',
-              alignItems: 'baseline'
+              alignItems: 'baseline',
             }}
           >
             <Text style={{ fontWeight: 'bold' }}>{title}</Text>
@@ -73,7 +73,7 @@ export const Experience = () => (
             />
           </View>
           <Text>{companyName}</Text>
-          {bullets.map(bullet => (
+          {bullets.map((bullet) => (
             <ExperienceBullet key={bullet}>{bullet}</ExperienceBullet>
           ))}
         </View>
