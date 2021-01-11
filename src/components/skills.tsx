@@ -8,11 +8,9 @@ export const Skills = () => (
     <Subhead>Skills</Subhead>
     <Text>Expert: HTML, CSS, Javascript, Vue.js, Figma, Adobe Photoshop</Text>
     <Text>
-      Advanced: TypeScript, React.js, Gatsby, GraphQL, Node.js, UI/UX Design
+      Advanced: WCAG Accessibility, TypeScript, React.js, Gatsby, GraphQL,
+      Node.js, UI/UX Design
     </Text>
-    <Text>
-      Intermediate: WCAG Accessibility, Angular, Webpack, SCSS, jQuery,
-      Bootstrap
-    </Text>
+    <Text>Intermediate: Backbone, Webpack, SCSS, jQuery, Bootstrap</Text>
   </Section>
 )

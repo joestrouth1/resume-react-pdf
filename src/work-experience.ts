@@ -9,14 +9,29 @@ interface Experience {
 }
 export const experiences: Experience[] = [
   {
+    companyName: 'Principal Financial Group',
+    title: 'Software Engineer',
+    startMonth: 'May',
+    startYear: 2020,
+    bullets: [
+      'Help lead a small team of software engineers focused on accessibility',
+      'Audit and fix accessibility issues across multiple websites',
+      'Test pages with multiple browsers and assistive technologies, including NVDA, axe, and ARC Toolkit',
+      'Contribute code and documentation to internal design systems',
+      'Advocate for accessibility throughout the organization via presentations, writing, and consulting with other teams',
+    ],
+  },
+  {
     companyName: 'CURO Financial Technologies Corp',
     title: 'Frontend Web Developer',
     startMonth: 'Apr',
     startYear: 2019,
+    endMonth: 'May',
+    endYear: 2020,
     bullets: [
       'Map user journeys, design user interfaces in Figma and Adobe XD',
       'Create design systems and component libraries for new and existing products',
-      'Build new web projects with tools like Webpack and Rollup',
+      'Build new web projects with Webpack and Rollup',
       'Develop user interfaces with React, Typescript, Babel, Gatsby, and Emotion',
       'Lead the transition of legacy codebases from jQuery & Bootstrap to modern component-driven architectures',
       'Audit, optimize, and monitor web sites for accessibility, performance and SEO',
@@ -30,9 +45,10 @@ export const experiences: Experience[] = [
     endMonth: 'Apr',
     endYear: 2019,
     bullets: [
-      'Integrate Oracle ERP systems with third-party ecommmerce platforms like Walmart, Amazon, eBay, and Disney',
       'Develop APIs in Node.js and TypeScript, provision and deploy to serverless and VM-based infrastructure',
-      'Plan, propose, implement, and optimize advertising campaigns for products on several platforms',
+      'Build web applications for internal use with Vue.js, Nuxt, Stencil, Webpack, and SCSS',
+      'Integrate Oracle ERP systems with ecommmerce platforms like Walmart, Amazon, eBay, and Disney',
+      'Plan, implement, and optimize advertising campaigns on several platforms',
       'Ensure product and inventory data integrity and availability across multiple channels',
     ],
   },
@@ -44,12 +60,13 @@ export const experiences: Experience[] = [
     endMonth: 'Jan',
     endYear: 2018,
     bullets: [
-      'Collaborate with an international remote team on a git-managed codebase for the purpose of conversion rate optimization, feature development, content management, updating of promotional material, and refining design',
-      'Capture, edit, upload, archive, and maintain/update large quantities of product and lifestyle photographs',
-      'Manage design and distribution of promotional/marketing materials like catalogs, email campaigns, and search and display ads',
-      'Write search engine optimized e-commerce web copy, blog posts, and press releases',
-      'Design and optimize lead generation and email marketing campaigns',
-      'Communicate with a global community of vendors and artists to facilitate quality control and a smooth customer experience',
+      'Use product and marketing analytics to identify optimization opportunities in hotjar and Google Analytics',
+      'Design, build, and test improvements to ecommerce UI using Figma and Photoshop',
+      'Develop with HTML, CSS, SCSS, jQuery, and Bootstrap',
+      'Capture, edit, and archive large quantities of product and lifestyle photographs in an on-site studio',
+      'Manage design and distribution of marketing materials like catalogs, email campaigns, and ads',
+      'Write search engine optimized product descriptions, blog posts, and press releases',
+      'Communicate with global vendors and artists for quality control and customer experience',
     ],
   },
 ]

@@ -7,7 +7,7 @@ export const Education = () => (
   <Section>
     <Subhead>Education</Subhead>
     <Text style={{ fontWeight: 'bold' }}>
-      Bachelors of Fine Arts, Art History
+      Bachelor of Arts - BA, Art History
     </Text>
     <Text>Wichita State University, 2016</Text>
   </Section>

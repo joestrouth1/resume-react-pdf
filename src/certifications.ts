@@ -20,7 +20,7 @@ export const certifications: Certification[] = [
     title: "User Experience: The Beginner's Guide",
   },
   {
-    issuedBy: 'Google',
-    title: 'Mobile Sites Expert',
+    issuedBy: 'Triplebyte',
+    title: 'Front End Engineering',
   },
 ]
