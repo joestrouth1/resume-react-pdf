@@ -39,7 +39,7 @@ export const experiences: Experience[] = [
   },
   {
     companyName: 'Open Road Brands, LLC.',
-    title: 'Item Maintenance Coordinator',
+    title: 'Ecommerce Integration Developer',
     startMonth: 'Jan',
     startYear: 2018,
     endMonth: 'Apr',
@@ -49,7 +49,6 @@ export const experiences: Experience[] = [
       'Build web applications for internal use with Vue.js, Nuxt, Stencil, Webpack, and SCSS',
       'Integrate Oracle ERP systems with ecommmerce platforms like Walmart, Amazon, eBay, and Disney',
       'Plan, implement, and optimize advertising campaigns on several platforms',
-      'Ensure product and inventory data integrity and availability across multiple channels',
     ],
   },
   {
@@ -66,7 +65,6 @@ export const experiences: Experience[] = [
       'Capture, edit, and archive large quantities of product and lifestyle photographs in an on-site studio',
       'Manage design and distribution of marketing materials like catalogs, email campaigns, and ads',
       'Write search engine optimized product descriptions, blog posts, and press releases',
-      'Communicate with global vendors and artists for quality control and customer experience',
     ],
   },
 ]
